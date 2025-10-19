@@ -32,8 +32,8 @@ fp-info-cache
 **/jlcpcb/**
 
 *.pcb3d
-*.step
-*.wrl
+# *.step
+# *.wrl
 
 spam/**
 
