@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" ":TQFN-24_L4.0-W4.0-P0.50-BL-EP2.6"
+		(property "Footprint" "easyeda2kicad:TQFN-24_L4.0-W4.0-P0.50-BL-EP2.6"
 			(at 7.62 -30.988 0)
 			(effects
 				(font

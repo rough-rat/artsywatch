@@ -7002,7 +7002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ":TQFN-24_L4.0-W4.0-P0.50-BL-EP2.6"
+		(property "Footprint" "easyeda2kicad:TQFN-24_L4.0-W4.0-P0.50-BL-EP2.6"
 			(at 367.03 164.338 0)
 			(effects
 				(font
@@ -12069,7 +12069,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ":TQFN-24_L4.0-W4.0-P0.50-BL-EP2.6"
+		(property "Footprint" "easyeda2kicad:TQFN-24_L4.0-W4.0-P0.50-BL-EP2.6"
 			(at 365.76 234.188 0)
 			(effects
 				(font
@@ -14059,7 +14059,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ":TQFN-24_L4.0-W4.0-P0.50-BL-EP2.6"
+		(property "Footprint" "easyeda2kicad:TQFN-24_L4.0-W4.0-P0.50-BL-EP2.6"
 			(at 368.3 94.488 0)
 			(effects
 				(font
