@@ -1859,6 +1859,189 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "LED_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_1_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Project_Symbols:FM6126QC"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4818,6 +5001,16 @@
 	)
 	(wire
 		(pts
+			(xy 370.84 201.93) (xy 383.54 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "046becd1-482d-47d0-92df-9e22a015bd1e")
+	)
+	(wire
+		(pts
 			(xy 147.32 134.62) (xy 139.7 134.62)
 		)
 		(stroke
@@ -5008,6 +5201,16 @@
 	)
 	(wire
 		(pts
+			(xy 383.54 49.53) (xy 373.38 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d647096-061d-4ea5-8981-dbe63c395e95")
+	)
+	(wire
+		(pts
 			(xy 179.07 55.88) (xy 194.31 55.88)
 		)
 		(stroke
@@ -5015,6 +5218,16 @@
 			(type default)
 		)
 		(uuid "1f2d6ba7-377a-4e31-a429-e891393f4190")
+	)
+	(wire
+		(pts
+			(xy 383.54 69.85) (xy 373.38 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23dd573a-bfdf-472a-9b83-0f7c6d6d3d7f")
 	)
 	(wire
 		(pts
@@ -5055,6 +5268,16 @@
 			(type default)
 		)
 		(uuid "2e689623-d729-4764-9b30-c942729c3571")
+	)
+	(wire
+		(pts
+			(xy 383.54 85.09) (xy 373.38 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e7f0ab6-54a5-4ccb-a233-ec69c860cc7d")
 	)
 	(wire
 		(pts
@@ -5168,6 +5391,26 @@
 	)
 	(wire
 		(pts
+			(xy 383.54 64.77) (xy 373.38 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e7499bd-ab1e-4ad9-98df-06fd1204a775")
+	)
+	(wire
+		(pts
+			(xy 383.54 59.69) (xy 373.38 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e880cd1-9054-4265-8b0c-d81f8aec1bea")
+	)
+	(wire
+		(pts
 			(xy 107.95 27.94) (xy 107.95 38.1)
 		)
 		(stroke
@@ -5228,6 +5471,16 @@
 	)
 	(wire
 		(pts
+			(xy 383.54 119.38) (xy 372.11 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43c0c0a1-69d6-442d-ac07-13dcae21d24e")
+	)
+	(wire
+		(pts
 			(xy 147.32 132.08) (xy 147.32 134.62)
 		)
 		(stroke
@@ -5275,6 +5528,16 @@
 			(type default)
 		)
 		(uuid "46461479-3844-4cf6-b46c-054b59422400")
+	)
+	(wire
+		(pts
+			(xy 372.11 134.62) (xy 383.54 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "469c852e-9e86-4d80-b9ee-8fd40fd0ecd1")
 	)
 	(wire
 		(pts
@@ -5395,6 +5658,16 @@
 			(type default)
 		)
 		(uuid "593e503f-252e-4585-98a5-7ea8c816f3fc")
+	)
+	(wire
+		(pts
+			(xy 383.54 54.61) (xy 373.38 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59841fbc-5f03-4fe8-b588-74042c3b4fb3")
 	)
 	(wire
 		(pts
@@ -5768,6 +6041,16 @@
 	)
 	(wire
 		(pts
+			(xy 370.84 191.77) (xy 383.54 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f21a3d7-e7a5-41aa-8672-f99806923511")
+	)
+	(wire
+		(pts
 			(xy 110.49 198.12) (xy 107.95 198.12)
 		)
 		(stroke
@@ -5798,6 +6081,16 @@
 	)
 	(wire
 		(pts
+			(xy 372.11 139.7) (xy 383.54 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9097060b-438d-43a2-bf72-a1b53ff8c9aa")
+	)
+	(wire
+		(pts
 			(xy 137.16 172.72) (xy 129.54 172.72)
 		)
 		(stroke
@@ -5805,6 +6098,16 @@
 			(type default)
 		)
 		(uuid "90cc2a77-1775-431f-872e-c31b2ac82bf7")
+	)
+	(wire
+		(pts
+			(xy 370.84 207.01) (xy 383.54 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "912e9fa6-f49a-4e4e-91f7-e89b3fdea8ca")
 	)
 	(wire
 		(pts
@@ -5865,6 +6168,16 @@
 			(type default)
 		)
 		(uuid "9c9bc56f-a5e4-4012-83ed-503f4e553b0e")
+	)
+	(wire
+		(pts
+			(xy 383.54 80.01) (xy 373.38 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d200585-4fe1-4e7e-b125-8f330455f2c5")
 	)
 	(wire
 		(pts
@@ -6088,6 +6401,16 @@
 	)
 	(wire
 		(pts
+			(xy 372.11 154.94) (xy 383.54 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0882944-5c94-4f90-9283-df813daef108")
+	)
+	(wire
+		(pts
 			(xy 133.35 137.16) (xy 133.35 134.62)
 		)
 		(stroke
@@ -6245,6 +6568,26 @@
 			(type default)
 		)
 		(uuid "d8b8d5ef-326d-4a72-881e-9225b2e2c083")
+	)
+	(wire
+		(pts
+			(xy 383.54 74.93) (xy 373.38 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db4a7156-1fc3-49b7-ae9f-31176d6df161")
+	)
+	(wire
+		(pts
+			(xy 370.84 196.85) (xy 383.54 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db6d356c-300f-4332-bcde-e62c683333ee")
 	)
 	(wire
 		(pts
@@ -6448,6 +6791,26 @@
 	)
 	(wire
 		(pts
+			(xy 372.11 149.86) (xy 383.54 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f10c4deb-691f-48d9-8ae1-f4ccfa1c61bb")
+	)
+	(wire
+		(pts
+			(xy 372.11 144.78) (xy 383.54 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f11bc150-08d4-460a-8b73-46b0eebc980d")
+	)
+	(wire
+		(pts
 			(xy 347.98 87.63) (xy 345.44 87.63)
 		)
 		(stroke
@@ -6475,6 +6838,16 @@
 			(type default)
 		)
 		(uuid "f43943d3-864a-4bd4-b167-c9e07bed18e1")
+	)
+	(wire
+		(pts
+			(xy 372.11 129.54) (xy 383.54 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5b8fedd-d707-4721-a706-8710663b9e15")
 	)
 	(wire
 		(pts
@@ -6545,6 +6918,16 @@
 			(type default)
 		)
 		(uuid "fc3e43ec-3692-40ba-9e38-c4f2078ffdf9")
+	)
+	(wire
+		(pts
+			(xy 383.54 124.46) (xy 372.11 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd24680a-56a7-405b-8206-84819cb80039")
 	)
 	(label "BQ_CHG"
 		(at 149.86 67.31 0)
@@ -6897,6 +7280,83 @@
 		(uuid "fc8e7a02-9dc8-4539-9ab5-d8fdcd5b6953")
 	)
 	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 374.65 189.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "014ba6ce-0ab7-4f1e-b831-3646acff3498")
+		(property "Reference" "D35"
+			(at 385.064 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 381.254 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 374.65 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 374.65 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 374.65 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 374.65 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a334952-ee13-4493-8427-8376ec83187e")
+		)
+		(pin "2"
+			(uuid "ab258315-c5f2-462c-b0bf-6fa94085489e")
+		)
+		(instances
+			(project "artsywatch"
+				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
+					(reference "D35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 53.34 46.99 270)
 		(unit 1)
@@ -6956,6 +7416,83 @@
 			(project "artsywatch"
 				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 387.35 64.77 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "079a9d52-1346-4bc9-824b-7aa89d67f1ab")
+		(property "Reference" "D9"
+			(at 397.764 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 393.954 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 387.35 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 387.35 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 387.35 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 387.35 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84424e98-5f49-46a3-a205-cc2bd337819b")
+		)
+		(pin "2"
+			(uuid "b69cf9b0-252f-4bfb-8c0c-960399166981")
+		)
+		(instances
+			(project "artsywatch"
+				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -7023,6 +7560,314 @@
 			(project "artsywatch"
 				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 387.35 80.01 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a87058d-83f5-4093-9c03-53aee6ac9f88")
+		(property "Reference" "D15"
+			(at 397.764 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 393.954 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 387.35 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 387.35 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 387.35 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 387.35 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3dfc38c-7c10-4624-982b-6be2bdc7700d")
+		)
+		(pin "2"
+			(uuid "6e05b8e3-17c6-43f9-858d-5a390871995f")
+		)
+		(instances
+			(project "artsywatch"
+				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 387.35 129.54 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0af5eb4e-33fc-417f-af8f-ef84bb3ca9b2")
+		(property "Reference" "D23"
+			(at 397.764 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 393.954 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 387.35 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 387.35 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 387.35 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 387.35 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f85a6e4-163d-46ce-a8ed-c09178f30b21")
+		)
+		(pin "2"
+			(uuid "d69a9ec4-989d-4e49-8c62-d4198f0844e0")
+		)
+		(instances
+			(project "artsywatch"
+				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 375.92 157.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b7fccac-760d-4499-9303-71edf9a1c4b0")
+		(property "Reference" "D34"
+			(at 386.334 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 382.524 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 375.92 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 375.92 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 375.92 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 375.92 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cac7e21f-bde0-48ce-bd9e-384e6f20b905")
+		)
+		(pin "2"
+			(uuid "ba61d355-9d41-48be-8be9-c7e5a9a648af")
+		)
+		(instances
+			(project "artsywatch"
+				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
+					(reference "D34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 375.92 152.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ca68a4a-216f-4219-aa9f-934a60e9625b")
+		(property "Reference" "D32"
+			(at 386.334 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 382.524 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 375.92 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 375.92 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 375.92 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 375.92 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c972e4d4-5b1d-4e12-8d11-217d47cc7440")
+		)
+		(pin "2"
+			(uuid "531fd9bd-ed43-46e1-bc10-d802193cfaf1")
+		)
+		(instances
+			(project "artsywatch"
+				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
+					(reference "D32")
 					(unit 1)
 				)
 			)
@@ -7323,6 +8168,83 @@
 		)
 	)
 	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 377.19 87.63 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1148eeb6-edac-4599-8a52-8dd0d5c8342e")
+		(property "Reference" "D18"
+			(at 387.604 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 383.794 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 377.19 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 377.19 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 377.19 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 377.19 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d6387c5-5b49-407e-bd49-8dd2bf7577e1")
+		)
+		(pin "2"
+			(uuid "f8fe5443-8230-4a4d-ba8b-90228b89d85a")
+		)
+		(instances
+			(project "artsywatch"
+				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 133.35 142.24 0)
 		(mirror y)
@@ -7523,6 +8445,83 @@
 		)
 	)
 	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 387.35 54.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17260c8c-1ef1-47a7-91c0-d6363dfaf92a")
+		(property "Reference" "D5"
+			(at 397.764 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 393.954 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 387.35 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 387.35 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 387.35 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 387.35 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "886c9cdf-1e26-4d51-8ed0-ba20d0eadc9f")
+		)
+		(pin "2"
+			(uuid "e6d87184-aa5d-49e4-b66f-3dffe3107c12")
+		)
+		(instances
+			(project "artsywatch"
+				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 25.4 247.65 0)
 		(mirror y)
@@ -7585,6 +8584,83 @@
 			(project "papajbadge"
 				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
 					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 387.35 124.46 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "19126f62-6dfa-464a-8f0d-4d94f581d298")
+		(property "Reference" "D21"
+			(at 397.764 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 393.954 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 387.35 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 387.35 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 387.35 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 387.35 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3cbaf661-0f52-46e0-a5a2-e123ee09e0ba")
+		)
+		(pin "2"
+			(uuid "1ff56f68-df3b-4bf6-b72b-bf6926b5a0c9")
+		)
+		(instances
+			(project "artsywatch"
+				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -7798,6 +8874,83 @@
 			(project "papajbadge"
 				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
 					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 375.92 132.08 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1f04a636-6815-4ae4-9531-9d6665d1a7c7")
+		(property "Reference" "D24"
+			(at 386.334 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 382.524 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 375.92 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 375.92 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 375.92 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 375.92 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9314d29-e51d-42c6-88ca-f14c6aae7900")
+		)
+		(pin "2"
+			(uuid "e8ffc887-378b-42ab-be22-c3c40b8fd864")
+		)
+		(instances
+			(project "artsywatch"
+				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
+					(reference "D24")
 					(unit 1)
 				)
 			)
@@ -8785,6 +9938,83 @@
 		)
 	)
 	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 387.35 196.85 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "35537269-1775-4277-9248-005e4ff5789f")
+		(property "Reference" "D38"
+			(at 397.764 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 393.954 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 387.35 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 387.35 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 387.35 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 387.35 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "808d3f2c-1189-4e17-b2b6-b42335798967")
+		)
+		(pin "2"
+			(uuid "c84cf3fb-1137-49e5-a097-7caa49540968")
+		)
+		(instances
+			(project "artsywatch"
+				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
+					(reference "D38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
 		(at 359.41 104.14 0)
 		(unit 1)
@@ -9044,6 +10274,83 @@
 			(project "artsywatch"
 				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 387.35 59.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "459ce453-2b56-4d6e-b36a-054abd7b0e66")
+		(property "Reference" "D7"
+			(at 397.764 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 393.954 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 387.35 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 387.35 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 387.35 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 387.35 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f73fadd4-f0bc-4350-8264-750104136038")
+		)
+		(pin "2"
+			(uuid "95c5cd0a-028d-4e67-8749-811858742859")
+		)
+		(instances
+			(project "artsywatch"
+				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -9321,6 +10628,83 @@
 		)
 	)
 	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 387.35 139.7 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49859f28-2070-429a-ae3c-a0fb894f726c")
+		(property "Reference" "D27"
+			(at 397.764 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 393.954 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 387.35 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 387.35 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 387.35 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 387.35 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbc49220-335f-4879-b66b-c6ad3fe208e3")
+		)
+		(pin "2"
+			(uuid "2b817828-9440-4672-80bd-cbfdede753e8")
+		)
+		(instances
+			(project "artsywatch"
+				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
+					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 181.61 142.24 0)
 		(mirror x)
@@ -9458,6 +10842,83 @@
 		)
 	)
 	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 375.92 147.32 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d8e4bc5-78bb-47c5-9519-7b287a029ad5")
+		(property "Reference" "D30"
+			(at 386.334 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 382.524 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 375.92 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 375.92 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 375.92 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 375.92 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1546a318-6043-43a3-abbb-90c495b82c2a")
+		)
+		(pin "2"
+			(uuid "640cb86e-ae0f-474b-aeaf-c8922196ca0c")
+		)
+		(instances
+			(project "artsywatch"
+				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 69.85 44.45 90)
 		(unit 1)
@@ -9586,6 +11047,83 @@
 			(project "artsywatch"
 				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 374.65 204.47 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50cf5e5e-0b3c-48a4-9a9d-9de7fcffd430")
+		(property "Reference" "D41"
+			(at 385.064 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 381.254 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 374.65 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 374.65 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 374.65 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 374.65 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6c88759-ab3f-4cc8-8ad4-99bb1d62f947")
+		)
+		(pin "2"
+			(uuid "e7277757-3fb0-4946-8d11-d7d1770149d7")
+		)
+		(instances
+			(project "artsywatch"
+				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
+					(reference "D41")
 					(unit 1)
 				)
 			)
@@ -9880,6 +11418,83 @@
 		)
 	)
 	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 387.35 154.94 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "559f3453-f9fd-4610-87a1-f528e074ccae")
+		(property "Reference" "D33"
+			(at 397.764 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 393.954 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 387.35 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 387.35 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 387.35 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 387.35 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd267817-5bdd-467c-b021-4a01f12d3c5b")
+		)
+		(pin "2"
+			(uuid "57c822c2-385d-45df-a7ca-03a0acc6b024")
+		)
+		(instances
+			(project "artsywatch"
+				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
+					(reference "D33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 160.02 55.88 0)
 		(mirror x)
@@ -10150,6 +11765,83 @@
 			(project "artsywatch"
 				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 374.65 194.31 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c82d298-7656-4ea3-b860-4ba7fe18048f")
+		(property "Reference" "D37"
+			(at 385.064 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 381.254 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 374.65 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 374.65 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 374.65 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 374.65 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63a8ddbe-b02f-4188-bdc8-1213abd75672")
+		)
+		(pin "2"
+			(uuid "e8af2e45-0899-4557-a744-f0c30fd58e16")
+		)
+		(instances
+			(project "artsywatch"
+				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
+					(reference "D37")
 					(unit 1)
 				)
 			)
@@ -10436,6 +12128,83 @@
 		)
 	)
 	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 377.19 82.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66179c3b-343f-4b25-8395-f553d2390225")
+		(property "Reference" "D16"
+			(at 387.604 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 383.794 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 377.19 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 377.19 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 377.19 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 377.19 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a30201fc-4416-41b5-b808-270888c7a239")
+		)
+		(pin "2"
+			(uuid "1c502f71-e29c-436b-a51d-e331d542a7b8")
+		)
+		(instances
+			(project "artsywatch"
+				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 30.48 34.29 90)
 		(unit 1)
@@ -10495,6 +12264,160 @@
 			(project "artsywatch"
 				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 387.35 134.62 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68b02a92-cb00-45ef-91fc-46ad955d21d3")
+		(property "Reference" "D25"
+			(at 397.764 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 393.954 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 387.35 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 387.35 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 387.35 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 387.35 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "112fe2d6-2ccb-4dc7-98ab-c692ca1e1593")
+		)
+		(pin "2"
+			(uuid "6f84fd2f-846e-4da7-82d2-39f87c68144c")
+		)
+		(instances
+			(project "artsywatch"
+				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 387.35 69.85 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68f3ebdd-d732-40bb-8d2e-8e1e32d6d989")
+		(property "Reference" "D11"
+			(at 397.764 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 393.954 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 387.35 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 387.35 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 387.35 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 387.35 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ff1a9b8-a931-4490-b04a-7ec8f44f45f9")
+		)
+		(pin "2"
+			(uuid "12918aaa-dd33-47b9-ab71-d126719cee90")
+		)
+		(instances
+			(project "artsywatch"
+				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -10640,6 +12563,83 @@
 			(project "papajbadge"
 				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 387.35 149.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71553c39-2acb-4e55-9ba7-42df051519fc")
+		(property "Reference" "D31"
+			(at 397.764 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 393.954 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 387.35 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 387.35 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 387.35 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 387.35 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "077ebdad-f9ec-46d7-b088-c8e4b95eda38")
+		)
+		(pin "2"
+			(uuid "3f137a8f-52cf-45aa-acc4-8dbc44f353a9")
+		)
+		(instances
+			(project "artsywatch"
+				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
+					(reference "D31")
 					(unit 1)
 				)
 			)
@@ -11039,6 +13039,83 @@
 			(project "artsywatch"
 				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 387.35 85.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d91567a-58fe-4eab-b56b-dcd7f3a35c12")
+		(property "Reference" "D17"
+			(at 397.764 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 393.954 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 387.35 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 387.35 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 387.35 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 387.35 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4caf7a60-12ec-45e7-9b0e-6b0c561c4811")
+		)
+		(pin "2"
+			(uuid "b1d9ed8d-5fab-4bc2-a819-a789b4bb9774")
+		)
+		(instances
+			(project "artsywatch"
+				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -11927,6 +14004,83 @@
 		)
 	)
 	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 377.19 67.31 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "92eda6eb-271d-47bf-8d34-2cc0ca21e924")
+		(property "Reference" "D10"
+			(at 387.604 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 383.794 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 377.19 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 377.19 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 377.19 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 377.19 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ffcb01a7-b760-432e-a14f-74431fd269d1")
+		)
+		(pin "2"
+			(uuid "896605fa-2004-4f41-924d-15f3fd11d21b")
+		)
+		(instances
+			(project "artsywatch"
+				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 93.98 69.85 0)
 		(mirror x)
@@ -11998,6 +14152,83 @@
 			(project "artsywatch"
 				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 387.35 191.77 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93a24bb0-aba8-4f58-9873-4db7e274ee08")
+		(property "Reference" "D36"
+			(at 397.764 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 393.954 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 387.35 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 387.35 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 387.35 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 387.35 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4ee6875-2d23-4eeb-ad1c-2476dc94be5b")
+		)
+		(pin "2"
+			(uuid "0f3eaa0b-c999-4b87-aced-889fc57027d8")
+		)
+		(instances
+			(project "artsywatch"
+				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
+					(reference "D36")
 					(unit 1)
 				)
 			)
@@ -12131,6 +14362,83 @@
 			(project "artsywatch"
 				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
 					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 387.35 74.93 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95c2300d-a2ac-4aaa-8184-0cda7950bb60")
+		(property "Reference" "D13"
+			(at 397.764 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 393.954 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 387.35 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 387.35 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 387.35 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 387.35 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b853719-3bb0-47d4-ac2b-7a8fad686e28")
+		)
+		(pin "2"
+			(uuid "578c5b26-c12a-419a-950f-0f12bf51713e")
+		)
+		(instances
+			(project "artsywatch"
+				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -12278,6 +14586,83 @@
 			(project "artsywatch"
 				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 387.35 119.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95dac8d8-35b0-45bf-869a-f6169f43b1ea")
+		(property "Reference" "D19"
+			(at 397.764 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 393.954 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 387.35 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 387.35 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 387.35 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 387.35 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "354cc533-4270-4309-b5bd-8651a05387c7")
+		)
+		(pin "2"
+			(uuid "0ed40fb3-2a5f-428b-a3fd-1ce48c9baed9")
+		)
+		(instances
+			(project "artsywatch"
+				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -13002,6 +15387,83 @@
 		)
 	)
 	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 377.19 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a456c1d0-60e1-4621-a047-07a573e43e3d")
+		(property "Reference" "D6"
+			(at 387.604 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 383.794 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 377.19 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 377.19 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 377.19 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 377.19 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d637e5f3-e2aa-41e3-bdd5-0c2332f70b05")
+		)
+		(pin "2"
+			(uuid "2a7828cd-0444-4ae4-ae2b-1d10ce69dd55")
+		)
+		(instances
+			(project "artsywatch"
+				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 60.96 242.57 270)
 		(unit 1)
@@ -13145,6 +15607,83 @@
 		)
 	)
 	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 387.35 49.53 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7831a46-94c6-43d8-b366-17867636281d")
+		(property "Reference" "D3"
+			(at 397.764 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 393.954 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 387.35 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 387.35 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 387.35 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 387.35 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b1f0023-5302-4e19-ac8a-e6fab4e7c9da")
+		)
+		(pin "2"
+			(uuid "f36205da-6559-4d7e-aada-d7e02eefb8a7")
+		)
+		(instances
+			(project ""
+				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 358.14 92.71 0)
 		(unit 1)
@@ -13206,6 +15745,83 @@
 			(project "artsywatch"
 				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
 					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 377.19 77.47 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aebcd43f-8af2-4020-a91c-f19397990e73")
+		(property "Reference" "D14"
+			(at 387.604 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 383.794 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 377.19 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 377.19 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 377.19 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 377.19 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d9fa407-7d25-454c-85df-c377375d3a26")
+		)
+		(pin "2"
+			(uuid "4becc5fa-37c7-4b8f-9206-546006063c4c")
+		)
+		(instances
+			(project "artsywatch"
+				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -13871,6 +16487,83 @@
 		)
 	)
 	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 375.92 137.16 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2b41899-7053-45e2-b6a0-2d889dccb94d")
+		(property "Reference" "D26"
+			(at 386.334 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 382.524 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 375.92 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 375.92 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 375.92 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 375.92 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a10eec8-5f32-4954-958b-88f7391e67b7")
+		)
+		(pin "2"
+			(uuid "e0c4cbc2-0959-4cc3-a082-07b91fcf4fa0")
+		)
+		(instances
+			(project "artsywatch"
+				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 363.22 113.03 0)
 		(unit 1)
@@ -14360,6 +17053,83 @@
 		)
 	)
 	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 377.19 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cc527749-0138-4416-ab51-47753f2c2cc3")
+		(property "Reference" "D12"
+			(at 387.604 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 383.794 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 377.19 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 377.19 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 377.19 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 377.19 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9412ae7e-76e6-43cb-925f-fab40b28db6f")
+		)
+		(pin "2"
+			(uuid "b859001d-1e34-47a5-91f5-26edbe8bcab8")
+		)
+		(instances
+			(project "artsywatch"
+				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 29.21 233.68 0)
 		(mirror x)
@@ -14585,6 +17355,83 @@
 			(project "papajbadge"
 				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 375.92 127 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2738592-7206-407a-8a96-01cdacb9cfae")
+		(property "Reference" "D22"
+			(at 386.334 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 382.524 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 375.92 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 375.92 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 375.92 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 375.92 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d9c27d5-4d14-4630-94eb-5458568ebc99")
+		)
+		(pin "2"
+			(uuid "07be071c-cfc0-4b61-90ee-6c3813afc480")
+		)
+		(instances
+			(project "artsywatch"
+				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -14941,6 +17788,83 @@
 		)
 	)
 	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 375.92 142.24 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dda8a83f-7cd6-4fd8-b3d5-170641e4c24c")
+		(property "Reference" "D28"
+			(at 386.334 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 382.524 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 375.92 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 375.92 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 375.92 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 375.92 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e38222e2-9c6f-4060-93d4-831a4d6ba211")
+		)
+		(pin "2"
+			(uuid "b1f00709-18f1-4c3b-a2fe-7ba03d08846e")
+		)
+		(instances
+			(project "artsywatch"
+				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
 		(at 360.68 34.29 0)
 		(unit 1)
@@ -15088,6 +18012,83 @@
 		)
 	)
 	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 377.19 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e47464f5-a600-403d-8f7d-6e3e4ca9f01a")
+		(property "Reference" "D8"
+			(at 387.604 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 383.794 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 377.19 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 377.19 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 377.19 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 377.19 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18e8d2a8-7d11-40f8-9e86-18713c219a0e")
+		)
+		(pin "2"
+			(uuid "ea0e7137-778a-44d8-a644-68520b4808a9")
+		)
+		(instances
+			(project "artsywatch"
+				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 356.87 162.56 0)
 		(unit 1)
@@ -15149,6 +18150,314 @@
 			(project "artsywatch"
 				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
 					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 387.35 207.01 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e7f7023a-88ac-417e-ac48-6e1582af5cc1")
+		(property "Reference" "D42"
+			(at 397.764 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 393.954 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 387.35 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 387.35 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 387.35 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 387.35 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "470a9e25-32b2-4a1d-ac82-419ca939fc20")
+		)
+		(pin "2"
+			(uuid "95d4deeb-91c3-45c0-800e-7c0cca48c177")
+		)
+		(instances
+			(project "artsywatch"
+				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
+					(reference "D42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 375.92 121.92 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9c7d3b7-c497-4b4a-beac-f4bbb4b747a4")
+		(property "Reference" "D20"
+			(at 386.334 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 382.524 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 375.92 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 375.92 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 375.92 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 375.92 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89408288-7a1c-4b77-8841-08544861f6c8")
+		)
+		(pin "2"
+			(uuid "63e955d1-d7cf-45e8-8c81-fac5350b0ef0")
+		)
+		(instances
+			(project "artsywatch"
+				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 387.35 201.93 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0fc255e-637c-40a8-8716-d2b0d87f6ad4")
+		(property "Reference" "D40"
+			(at 397.764 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 393.954 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 387.35 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 387.35 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 387.35 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 387.35 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a47397a-7545-4d10-8ec4-e3d7697b7080")
+		)
+		(pin "2"
+			(uuid "d8499f4f-26d5-42b6-968f-6136272fa06c")
+		)
+		(instances
+			(project "artsywatch"
+				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
+					(reference "D40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 374.65 199.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f6083a04-ee85-4b59-962d-baeacee5e485")
+		(property "Reference" "D39"
+			(at 385.064 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 381.254 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 374.65 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 374.65 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 374.65 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 374.65 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "209f46ec-0b93-41d7-b420-4db035781ac2")
+		)
+		(pin "2"
+			(uuid "a7df035e-9ea6-4abe-8f52-83eccc64cc08")
+		)
+		(instances
+			(project "artsywatch"
+				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
+					(reference "D39")
 					(unit 1)
 				)
 			)
@@ -15217,6 +18526,83 @@
 			(project "artsywatch"
 				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 387.35 144.78 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f786365a-6924-445d-8157-39ef2619abc1")
+		(property "Reference" "D29"
+			(at 397.764 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 393.954 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 387.35 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 387.35 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 387.35 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 387.35 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3295acd7-057b-4247-b01b-bea15ecc0e04")
+		)
+		(pin "2"
+			(uuid "3647fa17-ce19-485a-b857-3d324fe3949c")
+		)
+		(instances
+			(project "artsywatch"
+				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
+					(reference "D29")
 					(unit 1)
 				)
 			)
@@ -15418,6 +18804,83 @@
 			(project "artsywatch"
 				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
 					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 377.19 52.07 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff529a33-8e1f-453c-bfd2-be8094df791c")
+		(property "Reference" "D4"
+			(at 387.604 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 383.794 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 377.19 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 377.19 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 377.19 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 377.19 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b82a783c-ffdb-49c6-94e8-213f0e12c561")
+		)
+		(pin "2"
+			(uuid "cfde5609-670b-4224-a36c-50db5b34c56c")
+		)
+		(instances
+			(project "artsywatch"
+				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
+					(reference "D4")
 					(unit 1)
 				)
 			)
