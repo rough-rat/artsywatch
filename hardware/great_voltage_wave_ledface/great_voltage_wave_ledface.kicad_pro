@@ -469,7 +469,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "artsywatch.kicad_pro",
+    "filename": "great_voltage_wave_ledface.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -508,7 +508,7 @@
       "plot": "production/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "artsywatch.step",
+      "step": "great_voltage_wave_ledface.step",
       "svg": "",
       "vrml": ""
     },
