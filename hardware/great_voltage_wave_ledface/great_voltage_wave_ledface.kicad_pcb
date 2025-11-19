@@ -11878,6 +11878,111 @@
 			)
 		)
 	)
+	(footprint "local:CONN-SMD_GT-BTP25006-0300A-010A"
+		(layer "B.Cu")
+		(uuid "8dae15c0-2f66-4f68-b522-ad156df03479")
+		(at 72.89 120.505 180)
+		(property "Reference" "REF**"
+			(at 0 6.23 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "fe808e72-ee3c-48b6-9191-6762b24a46e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "CONN-SMD_GT-BTP25006-0300A-010A_Connector"
+			(at 0 -6.23 0)
+			(layer "B.Fab")
+			(uuid "087e7d6b-9bff-421b-ba16-a76267f55ba2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1876e56c-69f4-4763-aa20-15a8d8e6cff2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "84418764-0dbc-4ae3-87fa-0537568a746b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(uuid "d2acc65b-ab10-492b-b478-ee865b8cc898")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" smd rect
+			(at 6.25 -3.365 270)
+			(size 4.27 1.4)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(uuid "11389430-3e20-4f38-8fa7-8e9e41339c6b")
+		)
+		(pad "2" smd rect
+			(at 3.75 -3.365 270)
+			(size 4.27 1.4)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(uuid "f4f1d4ba-d373-4efd-b947-f6eee86410c0")
+		)
+		(pad "3" smd rect
+			(at 1.25 -3.365 270)
+			(size 4.27 1.4)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(uuid "73f3ead7-7831-4442-bdbe-a138c5183227")
+		)
+		(pad "4" smd rect
+			(at -1.25 -3.365 270)
+			(size 4.27 1.4)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(uuid "28a140dd-2899-41a5-9280-b266a91446e6")
+		)
+		(pad "5" smd rect
+			(at -3.75 -3.365 270)
+			(size 4.27 1.4)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(uuid "763205b9-fcf9-4098-8206-494fe19847b9")
+		)
+		(pad "6" smd rect
+			(at -6.25 -3.365 270)
+			(size 4.27 1.4)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(uuid "13436b10-2bcb-4136-a2b4-a07b2cab560b")
+		)
+		(embedded_fonts no)
+	)
 	(gr_poly
 		(pts
 			(xy 69.433595 111) (xy 69.533595 111.1) (xy 97.083595 111.1) (xy 98.183595 110) (xy 69.433595 110)

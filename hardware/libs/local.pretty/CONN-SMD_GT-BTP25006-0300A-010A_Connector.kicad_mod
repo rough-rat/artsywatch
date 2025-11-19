@@ -1,0 +1,100 @@
+(footprint "CONN-SMD_GT-BTP25006-0300A-010A_Connector"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.23 0)
+		(layer "F.SilkS")
+		(uuid "331e40ac-2297-44ba-a757-5e30c4fe68e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CONN-SMD_GT-BTP25006-0300A-010A_Connector"
+		(at 0 6.23 0)
+		(layer "F.Fab")
+		(uuid "84da6c79-ae7c-4f74-8886-7d0c9d1de3ed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "58fa2758-78a7-4932-96b0-c79a9191ba10")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5f8c8276-1bb1-4edf-a3a9-f59bfd0fd634")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d44a3086-d842-45b1-82a3-43cf63e0e0f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 6.25 3.365 270)
+		(size 4.27 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "395801ee-a5a7-4842-a5cc-df3b73543614")
+	)
+	(pad "2" smd rect
+		(at 3.75 3.365 270)
+		(size 4.27 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "151ccddc-0f57-4e6b-9ac5-4e26d90feddb")
+	)
+	(pad "3" smd rect
+		(at 1.25 3.365 270)
+		(size 4.27 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "27f38829-2ca0-43f7-919a-4a0588feba97")
+	)
+	(pad "4" smd rect
+		(at -1.25 3.365 270)
+		(size 4.27 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cdc34ee9-8ad3-4d74-9c93-a917d8a8212e")
+	)
+	(pad "5" smd rect
+		(at -3.75 3.365 270)
+		(size 4.27 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "070b2072-a281-4ad2-ae8a-bdbe5fef323d")
+	)
+	(pad "6" smd rect
+		(at -6.25 3.365 270)
+		(size 4.27 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6fa85f2f-ffe8-43b0-9666-a3a18b35a139")
+	)
+	(embedded_fonts no)
+)
