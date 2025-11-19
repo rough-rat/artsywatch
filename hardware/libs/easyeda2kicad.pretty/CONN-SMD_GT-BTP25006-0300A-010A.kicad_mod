@@ -39,7 +39,7 @@
 	(fp_circle (center 7.38 2.80) (end 7.41 2.80) (layer F.Fab) (width 0.06))
 	(fp_circle (center -6.75 -0.95) (end -6.45 -0.95) (layer Cmts.User) (width 0.60))
 	(fp_circle (center 6.75 -0.95) (end 7.05 -0.95) (layer Cmts.User) (width 0.60))
-	(model "hardware/libs/easyeda2kicad.3dshapes/CONN-SMD_GT-BTP25006-0300A-010A.wrl"
+	(model "${KIPRJMOD}/../libs/easyeda2kicad.3dshapes/CONN-SMD_GT-BTP25006-0300A-010A.wrl"
 		(offset (xyz -0.000 0.100 0.700))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

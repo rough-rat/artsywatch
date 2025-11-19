@@ -968,15 +968,15 @@
 			(uuid "a5a263ca-bf6e-42b2-adad-f2bc12354c2d")
 		)
 		(embedded_fonts no)
-		(model "hardware/libs/easyeda2kicad.3dshapes/SOT-23-5_L2.9-W1.6-H1.1-LS2.8-P0.95.wrl"
+		(model "${KIPRJMOD}/../libs/easyeda2kicad.3dshapes/SOT-23-5_L2.9-W1.6-H1.1-LS2.8-P0.95.wrl"
 			(offset
-				(xyz -5.41 1.47 -0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 270)
+				(xyz -0 -0 -90)
 			)
 		)
 	)
@@ -3126,7 +3126,7 @@
 			(uuid "52fce5aa-9829-4f89-9f99-e45ae0196215")
 		)
 		(embedded_fonts no)
-		(model "hardware/libs/easyeda2kicad.3dshapes/CONN-SMD_MX1.25-WS-2P.wrl"
+		(model "${KIPRJMOD}/../libs/easyeda2kicad.3dshapes/CONN-SMD_MX1.25-WS-2P.wrl"
 			(offset
 				(xyz 0 0.5 -0)
 			)
@@ -5532,7 +5532,7 @@
 			(uuid "a5174aa2-b6ad-4aa6-a698-502c0d8e19ae")
 		)
 		(embedded_fonts no)
-		(model "hardware/libs/easyeda2kicad.3dshapes/CONN-SMD_GT-BTP25006-0300A-010A.wrl"
+		(model "${KIPRJMOD}/../libs/easyeda2kicad.3dshapes/CONN-SMD_GT-BTP25006-0300A-010A.wrl"
 			(offset
 				(xyz -0 0.1 0.7)
 			)
@@ -8849,15 +8849,15 @@
 			(uuid "ecea66fb-67fa-45e0-bd2d-250f7164f790")
 		)
 		(embedded_fonts no)
-		(model "hardware/libs/easyeda2kicad.3dshapes/SOT-23-5_L2.9-W1.6-H1.1-LS2.8-P0.95.wrl"
+		(model "${KIPRJMOD}/../libs/easyeda2kicad.3dshapes/SOT-23-5_L2.9-W1.6-H1.1-LS2.8-P0.95.wrl"
 			(offset
-				(xyz -5.41 1.47 -0)
+				(xyz 0 0 -0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 270)
+				(xyz -0 -0 -90)
 			)
 		)
 	)
@@ -10728,7 +10728,7 @@
 			(uuid "f8c0b2b7-5a1d-4875-9af5-4295d75777bd")
 		)
 		(embedded_fonts no)
-		(model "/home/critbit/Projects/hardware/33_badges/artsywatch/hardware/libs/easyeda2kicad.3dshapes/USB-C_SMD-TYPE-C-31-M-12_1.wrl"
+		(model "${KIPRJMOD}/../libs/easyeda2kicad.3dshapes/USB-C_SMD-TYPE-C-31-M-12_1.wrl"
 			(offset
 				(xyz 0 -2.5 0)
 			)
