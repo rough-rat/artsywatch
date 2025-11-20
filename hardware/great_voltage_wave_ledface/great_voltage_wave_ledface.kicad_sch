@@ -6189,6 +6189,16 @@
 	)
 	(wire
 		(pts
+			(xy 370.84 212.09) (xy 383.54 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e5fb6bc-7cca-4713-bd3c-b861c498c811")
+	)
+	(wire
+		(pts
 			(xy 346.71 154.94) (xy 334.01 154.94)
 		)
 		(stroke
@@ -6299,6 +6309,16 @@
 	)
 	(wire
 		(pts
+			(xy 370.84 227.33) (xy 383.54 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d6156d2-925d-4719-b89b-0de23f0f9c70")
+	)
+	(wire
+		(pts
 			(xy 44.45 44.45) (xy 43.18 44.45)
 		)
 		(stroke
@@ -6386,6 +6406,16 @@
 			(type default)
 		)
 		(uuid "638f331f-ecee-4d90-87f2-aa7542d5fd3d")
+	)
+	(wire
+		(pts
+			(xy 370.84 217.17) (xy 383.54 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "652d0bb9-ebad-4b17-9690-8fa153bd5562")
 	)
 	(wire
 		(pts
@@ -6596,6 +6626,16 @@
 			(type default)
 		)
 		(uuid "7f6c5f54-acd7-4a15-9673-ab133e0352de")
+	)
+	(wire
+		(pts
+			(xy 370.84 222.25) (xy 383.54 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fbea080-31b9-4449-832e-c595a49368d6")
 	)
 	(wire
 		(pts
@@ -8387,7 +8427,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 387.35 64.77 0)
 			(effects
 				(font
@@ -8557,7 +8597,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 387.35 80.01 0)
 			(effects
 				(font
@@ -8634,7 +8674,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 387.35 129.54 0)
 			(effects
 				(font
@@ -8920,6 +8960,83 @@
 		)
 	)
 	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 374.65 214.63 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e1c243e-a4c1-4502-8eb6-c5fcf42fb49a")
+		(property "Reference" "D45"
+			(at 385.064 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 381.254 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 374.65 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 374.65 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 374.65 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 374.65 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e4ec258-29cc-4c7d-9fd1-37a34c5a1064")
+		)
+		(pin "2"
+			(uuid "776b4ba4-1b65-43e7-9000-28e4fbbdb9cc")
+		)
+		(instances
+			(project "great_voltage_wave_ledface"
+				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
+					(reference "D45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 358.14 232.41 0)
 		(unit 1)
@@ -8981,6 +9098,83 @@
 			(project "artsywatch"
 				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
 					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 387.35 212.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1014ce49-5be6-42e6-a586-cfeeb63751c3")
+		(property "Reference" "D44"
+			(at 397.764 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 393.954 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 387.35 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 387.35 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 387.35 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 387.35 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25edbf7e-2e7e-492c-985d-ae471ae57376")
+		)
+		(pin "2"
+			(uuid "570dd17b-04c6-4473-89c2-40993f076038")
+		)
+		(instances
+			(project "great_voltage_wave_ledface"
+				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
+					(reference "D44")
 					(unit 1)
 				)
 			)
@@ -9159,7 +9353,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 377.19 87.63 0)
 			(effects
 				(font
@@ -9436,7 +9630,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 387.35 54.61 0)
 			(effects
 				(font
@@ -9581,7 +9775,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 387.35 124.46 0)
 			(effects
 				(font
@@ -9627,6 +9821,83 @@
 			(project "artsywatch"
 				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
 					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 387.35 222.25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1acdd15b-6cda-4536-909c-cb50e3910832")
+		(property "Reference" "D48"
+			(at 397.764 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 393.954 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 387.35 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 387.35 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 387.35 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 387.35 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2584e476-df6b-41a0-8ffc-7ee854da7298")
+		)
+		(pin "2"
+			(uuid "6cd218d5-1fb5-4c49-9751-5073a2c1633a")
+		)
+		(instances
+			(project "great_voltage_wave_ledface"
+				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
+					(reference "D48")
 					(unit 1)
 				)
 			)
@@ -9871,7 +10142,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 375.92 132.08 0)
 			(effects
 				(font
@@ -10549,6 +10820,83 @@
 			(project "artsywatch"
 				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 387.35 217.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28e5e35a-e834-4865-9644-e7eaeb75b54f")
+		(property "Reference" "D46"
+			(at 397.764 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 393.954 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 387.35 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 387.35 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 387.35 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 387.35 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e6671cb-981d-4862-9ef1-f5dc433dbec7")
+		)
+		(pin "2"
+			(uuid "f46ae1c3-b90a-469c-a689-edd77264efd3")
+		)
+		(instances
+			(project "great_voltage_wave_ledface"
+				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
+					(reference "D46")
 					(unit 1)
 				)
 			)
@@ -11301,7 +11649,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 387.35 196.85 0)
 			(effects
 				(font
@@ -11654,7 +12002,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 387.35 59.69 0)
 			(effects
 				(font
@@ -11935,7 +12283,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 387.35 139.7 0)
 			(effects
 				(font
@@ -12270,6 +12618,83 @@
 	(symbol
 		(lib_name "LED_1")
 		(lib_id "Device:LED")
+		(at 374.65 224.79 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50277a41-86d0-4c67-8d5f-54f807b6f744")
+		(property "Reference" "D49"
+			(at 385.064 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 381.254 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 374.65 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 374.65 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 374.65 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 374.65 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9bcc8f5d-95aa-4e3a-851e-10965b26badd")
+		)
+		(pin "2"
+			(uuid "cda1a381-ddbf-4b9c-9b43-eae1e3a2ad3e")
+		)
+		(instances
+			(project "great_voltage_wave_ledface"
+				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
+					(reference "D49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
 		(at 374.65 204.47 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12293,7 +12718,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 374.65 204.47 0)
 			(effects
 				(font
@@ -12808,6 +13233,83 @@
 			(project "artsywatch"
 				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 387.35 227.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "596b3104-360c-43bf-8b8e-0cdac7659730")
+		(property "Reference" "D50"
+			(at 397.764 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 393.954 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 387.35 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 387.35 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 387.35 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 387.35 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97519eae-bc65-4b17-9d57-662ca289bb32")
+		)
+		(pin "2"
+			(uuid "3244c33b-da0e-450a-8410-4503bd48b7f7")
+		)
+		(instances
+			(project "great_voltage_wave_ledface"
+				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
+					(reference "D50")
 					(unit 1)
 				)
 			)
@@ -13393,7 +13895,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 377.19 82.55 0)
 			(effects
 				(font
@@ -13470,7 +13972,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 387.35 134.62 0)
 			(effects
 				(font
@@ -13547,7 +14049,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 387.35 69.85 0)
 			(effects
 				(font
@@ -13949,6 +14451,83 @@
 			(project "papajbadge"
 				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 374.65 209.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "787e1139-4fcb-4c9d-8819-031e52f10cf1")
+		(property "Reference" "D43"
+			(at 385.064 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 381.254 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 374.65 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 374.65 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 374.65 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 374.65 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e81fa8b-225a-41f3-9237-4c45d27e9e6d")
+		)
+		(pin "2"
+			(uuid "f68831d3-2589-4ce1-8817-043f2e9005dd")
+		)
+		(instances
+			(project "great_voltage_wave_ledface"
+				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
+					(reference "D43")
 					(unit 1)
 				)
 			)
@@ -15225,7 +15804,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 377.19 67.31 0)
 			(effects
 				(font
@@ -15589,7 +16168,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 387.35 74.93 0)
 			(effects
 				(font
@@ -15813,7 +16392,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 387.35 119.38 0)
 			(effects
 				(font
@@ -16904,7 +17483,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 377.19 57.15 0)
 			(effects
 				(font
@@ -17125,7 +17704,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 387.35 49.53 0)
 			(effects
 				(font
@@ -17403,7 +17982,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 377.19 77.47 0)
 			(effects
 				(font
@@ -18362,7 +18941,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 375.92 137.16 0)
 			(effects
 				(font
@@ -18928,7 +19507,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 377.19 72.39 0)
 			(effects
 				(font
@@ -19149,7 +19728,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 375.92 127 0)
 			(effects
 				(font
@@ -19402,6 +19981,83 @@
 			(project "papajbadge"
 				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 374.65 219.71 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da08fed5-fac7-4191-b54a-242c7f23ebd5")
+		(property "Reference" "D47"
+			(at 385.064 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 381.254 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 374.65 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 374.65 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 374.65 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 374.65 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9aa1b538-af26-4598-bf96-a19715799066")
+		)
+		(pin "2"
+			(uuid "1ca26ff7-a866-4a71-9ed6-769a88fd726b")
+		)
+		(instances
+			(project "great_voltage_wave_ledface"
+				(path "/ea66adee-6cc4-479f-a91e-f3b33b843b8d"
+					(reference "D47")
 					(unit 1)
 				)
 			)
@@ -19827,7 +20483,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 377.19 62.23 0)
 			(effects
 				(font
@@ -19971,7 +20627,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 387.35 207.01 0)
 			(effects
 				(font
@@ -20048,7 +20704,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 375.92 121.92 0)
 			(effects
 				(font
@@ -20211,7 +20867,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 387.35 201.93 0)
 			(effects
 				(font
@@ -20288,7 +20944,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 374.65 199.39 0)
 			(effects
 				(font
@@ -20643,7 +21299,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 377.19 52.07 0)
 			(effects
 				(font
