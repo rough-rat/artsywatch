@@ -1,50 +1,255 @@
-(module easyeda2kicad:SW-SMD_2P-TS24CA (layer F.Cu) (tedit 5DC5F6A4)
+(footprint "SW-SMD_2P-TS24CA"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.97 0)
+		(layer "F.SilkS")
+		(uuid "96ba358e-831f-425e-97e1-ecf5105f2465")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW-SMD_2P-TS24CA"
+		(at 0 4.97 0)
+		(layer "F.Fab")
+		(uuid "99e422d0-ca6e-4dd4-a52c-d090a741915d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f0c5fe49-a7f2-423b-9252-671e9dd15234")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4446d2a6-f95e-4a04-9a51-1162d9926662")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
-	(fp_text reference REF** (at 0 -4.97) (layer F.SilkS)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -2.28 -0.09)
+		(end -2.28 1.08)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "59d16f6e-a6d9-44ca-a56f-dfd9459f4072")
 	)
-	(fp_text value SW-SMD_2P-TS24CA (at 0 4.97) (layer F.Fab)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -1 -2.42)
+		(end -1 -1.22)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e2322ef5-5647-4f11-ae3a-8b638917afc2")
 	)
-	(fp_text user %R (at 0 0) (layer F.Fab)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -1 -2.42)
+		(end 1 -2.42)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ec5abe72-a291-46d2-b8d4-2ee59d4ccc2b")
 	)
-	(fp_line (start -2.28 -0.09) (end -2.28 1.08) (layer F.SilkS) (width 0.25))
-	(fp_line (start 2.27 -0.09) (end 2.27 1.08) (layer F.SilkS) (width 0.25))
-	(fp_line (start -0.89 1.08) (end -1.17 1.08) (layer F.SilkS) (width 0.25))
-	(fp_line (start 0.89 1.08) (end 1.17 1.08) (layer F.SilkS) (width 0.25))
-	(fp_line (start 1.00 -2.42) (end 1.00 -1.22) (layer F.SilkS) (width 0.25))
-	(fp_line (start -1.00 -2.42) (end -1.00 -1.22) (layer F.SilkS) (width 0.25))
-	(fp_line (start -1.00 -2.42) (end 1.00 -2.42) (layer F.SilkS) (width 0.25))
-	(fp_line (start -0.89 1.08) (end 0.89 1.08) (layer F.SilkS) (width 0.25))
-	(pad 4 smd custom (at -2.12 -0.97 0.00) (size 0.01 0.01) (layers F.Cu F.Paste F.Mask)
-		(primitives 
-			(gr_poly 
-				(pts (xy 0.52 -0.0)(xy 0.52 -0.65)(xy 0.52 -0.65)(xy -0.53 -0.65)(xy -0.53 -0.65)(xy -0.53 0.65)(xy -0.53 0.65)(xy 0.12 0.65)(xy 0.12 0.65)(xy 0.12 -0.0)(xy 0.12 -0.0)(xy 0.52 -0.0)(xy 0.52 -0.0)(xy 0.52 -0.0)
-				) 
-				(width 0.1) 
+	(fp_line
+		(start -0.89 1.08)
+		(end -1.17 1.08)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2c53b7c4-7f97-47c7-be85-abf842efa054")
+	)
+	(fp_line
+		(start -0.89 1.08)
+		(end 0.89 1.08)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d0f964f5-df3a-4aac-8b57-e755cc32e81b")
+	)
+	(fp_line
+		(start 0.89 1.08)
+		(end 1.17 1.08)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6501bb4b-5585-4af1-b4b6-755b4851278c")
+	)
+	(fp_line
+		(start 1 -2.42)
+		(end 1 -1.22)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "38b2a428-a93b-45d5-901b-c7961394d0c8")
+	)
+	(fp_line
+		(start 2.27 -0.09)
+		(end 2.27 1.08)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b731ba0a-51ec-4a17-847d-6c0763e98647")
+	)
+	(fp_circle
+		(center -0.85 -0.32)
+		(end -0.73 -0.32)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "d55b1a40-6d40-407e-86e7-0fc656da30ec")
+	)
+	(fp_circle
+		(center 0.85 -0.32)
+		(end 0.97 -0.32)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "3f3366b5-9cc2-4360-8fbf-9d6d6e87129e")
+	)
+	(fp_circle
+		(center -2.28 1.13)
+		(end -2.25 1.13)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "51d2b816-e8b9-4ed2-8b48-d62297680f56")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "6d04f3f4-b4c8-4c35-9184-d883341948d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
-	(pad 3 smd custom (at 2.12 -0.97 0.00) (size 0.01 0.01) (layers F.Cu F.Paste F.Mask)
-		(primitives 
-			(gr_poly 
-				(pts (xy 0.53 0.65)(xy 0.53 -0.65)(xy 0.53 -0.65)(xy -0.52 -0.65)(xy -0.52 -0.65)(xy -0.52 -0.0)(xy -0.52 -0.0)(xy -0.52 -0.0)(xy -0.52 -0.0)(xy -0.12 -0.0)(xy -0.12 -0.0)(xy -0.12 0.65)(xy -0.12 0.65)(xy 0.53 0.65)
-				) 
-				(width 0.1) 
+	(pad "" np_thru_hole circle
+		(at -0.85 -0.32)
+		(size 0.7 0.7)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(uuid "760040b6-7754-48d0-8410-59cb28c63a4c")
+	)
+	(pad "" np_thru_hole circle
+		(at 0.85 -0.32)
+		(size 0.7 0.7)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(uuid "e1febf36-3d5a-4e27-ab59-77ef1d1e62ad")
+	)
+	(pad "1" smd rect
+		(at -1.7 0.97 180)
+		(size 0.6 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6f09c069-d460-41a9-9c7f-a8b47d28984b")
+	)
+	(pad "2" smd rect
+		(at 1.7 0.97 180)
+		(size 0.6 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "33ef965d-11ab-46ff-9f3e-fe75d5daa051")
+	)
+	(pad "3" smd custom
+		(at 2.12 -0.97)
+		(size 0.01 0.01)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.53 0.65) (xy 0.53 -0.65) (xy -0.52 -0.65) (xy -0.52 0) (xy -0.12 0) (xy -0.12 0.65) (xy 0.53 0.65)
+				)
+				(width 0.1)
+				(fill yes)
 			)
 		)
+		(uuid "d4030d20-6147-44e8-97fa-1d9d685a9cbc")
 	)
-	(pad 2 smd rect (at 1.70 0.97 180.00) (size 0.60 1.20) (layers F.Cu F.Paste F.Mask))
-	(pad 1 smd rect (at -1.70 0.97 180.00) (size 0.60 1.20) (layers F.Cu F.Paste F.Mask))
-	(pad "" thru_hole circle (at 0.85 -0.32) (size 0.70 0.70) (drill 0.70) (layers *.Cu *.Mask))
-	(pad "" thru_hole circle (at -0.85 -0.32) (size 0.70 0.70) (drill 0.70) (layers *.Cu *.Mask))
-	(fp_circle (center -2.28 1.13) (end -2.25 1.13) (layer F.Fab) (width 0.06))
-	(fp_circle (center -0.85 -0.32) (end -0.73 -0.32) (layer Cmts.User) (width 0.25))
-	(fp_circle (center 0.85 -0.32) (end 0.97 -0.32) (layer Cmts.User) (width 0.25))
+	(pad "4" smd custom
+		(at -2.12 -0.97)
+		(size 0.01 0.01)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.52 0) (xy 0.52 -0.65) (xy -0.53 -0.65) (xy -0.53 0.65) (xy 0.12 0.65) (xy 0.12 0) (xy 0.52 0)
+				)
+				(width 0.1)
+				(fill yes)
+			)
+		)
+		(uuid "18bb3cfd-f695-40f4-9eb2-572ff0e00f0d")
+	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/../libs/easyeda2kicad.3dshapes/SW-SMD_2P-TS24CA.wrl"
-		(offset (xyz 0.000 0.680 0.400))
-		(scale (xyz 1 1 1))
-		(rotate (xyz 0 0 0))
+		(offset
+			(xyz 0 0.68 0.4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )

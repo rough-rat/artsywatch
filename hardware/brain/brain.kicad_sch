@@ -11628,7 +11628,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "28112148-605d-44f3-9a25-e586fa0d27b4")
 		(property "Reference" "TP3"
 			(at 120.523 62.2878 90)
@@ -11966,7 +11966,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C307331"
 			(at 25.4 153.67 0)
 			(effects
 				(font
@@ -12038,6 +12038,15 @@
 		)
 		(property "Description" "10v 2.2uF"
 			(at 140.97 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C12530"
+			(at 140.97 187.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12405,6 +12414,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C12530"
+			(at 133.35 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c614dd5a-192f-4384-be41-3876688e06bb")
 		)
@@ -12759,8 +12777,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C387727"
+		(property "LCSC Part" ""
 			(at 181.61 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C387727"
+			(at 181.61 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13332,6 +13359,15 @@
 			)
 		)
 		(property "Description" "10v 2.2uF"
+			(at 175.26 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C12530"
 			(at 175.26 191.77 0)
 			(effects
 				(font
@@ -14992,7 +15028,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1547"
 			(at 119.38 247.65 0)
 			(effects
 				(font
@@ -15503,7 +15539,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C307331"
 			(at 25.4 193.04 0)
 			(effects
 				(font
@@ -15649,7 +15685,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C307331"
 			(at 127 189.23 0)
 			(effects
 				(font
@@ -15873,8 +15909,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C393942"
+		(property "LCSC Part" ""
 			(at 17.78 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C393942"
+			(at 33.02 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17477,8 +17522,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C393942"
+		(property "LCSC Part" ""
 			(at 17.78 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C393942"
+			(at 33.02 196.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18786,7 +18840,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1547"
 			(at 99.06 247.65 0)
 			(effects
 				(font
@@ -20576,7 +20630,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25744"
 			(at 29.21 184.15 0)
 			(effects
 				(font
@@ -21092,8 +21146,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C387727"
+		(property "LCSC Part" ""
 			(at 181.61 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C387727"
+			(at 181.61 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21178,8 +21241,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C165948"
+		(property "LCSC Part" ""
 			(at 25.4 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C165948"
+			(at 25.4 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21297,8 +21369,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C22463688"
+		(property "LCSC Part" ""
 			(at 233.68 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22463688"
+			(at 233.68 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22112,8 +22193,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C22074"
+		(property "LCSC Part" ""
 			(at 62.23 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22074"
+			(at 62.23 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)

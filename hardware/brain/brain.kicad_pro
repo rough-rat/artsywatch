@@ -58,7 +58,32 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|46647500|49600000|a2da4ef1-0992-4dd8-a83a-dd885fd818ac|2b1bef23-a17f-4d8e-a37b-403b6716728d",
+          ""
+        ],
+        [
+          "clearance|46647500|55400000|bb32fd4e-fdb9-49dc-94d0-609df47b8b9e|c5bfd867-5a92-4daa-9563-62a880e2bbe1",
+          ""
+        ],
+        [
+          "hole_clearance|45347500|49600000|51f670bc-b0e6-4bc5-a92b-0feb7ed42ed7|a2da4ef1-0992-4dd8-a83a-dd885fd818ac",
+          ""
+        ],
+        [
+          "hole_clearance|45347500|49800000|51f670bc-b0e6-4bc5-a92b-0feb7ed42ed7|2b1bef23-a17f-4d8e-a37b-403b6716728d",
+          ""
+        ],
+        [
+          "hole_clearance|45347500|55200000|dce2ebf5-f47e-4f53-8109-667abe9dc934|c5bfd867-5a92-4daa-9563-62a880e2bbe1",
+          ""
+        ],
+        [
+          "hole_clearance|45347500|55400000|dce2ebf5-f47e-4f53-8109-667abe9dc934|bb32fd4e-fdb9-49dc-94d0-609df47b8b9e",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -191,6 +216,7 @@
       ],
       "track_widths": [
         0.0,
+        0.3,
         1.0
       ],
       "tuning_pattern_settings": {
