@@ -5584,13 +5584,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/../libs/easyeda2kicad.3dshapes/CONN-SMD_GT-BTP25006-0300A-010A.wrl"
 			(offset
-				(xyz -0 0.1 0.7)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -6069,7 +6069,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -180 -0 -90)
 			)
 		)
 	)
@@ -10831,13 +10831,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/../libs/easyeda2kicad.3dshapes/USB-C_SMD-TYPE-C-31-M-12_1.wrl"
 			(offset
-				(xyz 0 -1.1 0.85)
+				(xyz 0 -2.5 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 180)
+				(xyz -0 -0 -180)
 			)
 		)
 	)
@@ -12990,7 +12990,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "42.4000 mm"
+		(gr_text "42,4000 mm"
 			(at 60.47 79.38 0)
 			(layer "Cmts.User")
 			(uuid "b5bd29f6-ddf6-4c3e-a14d-1cf0c8a25104")
