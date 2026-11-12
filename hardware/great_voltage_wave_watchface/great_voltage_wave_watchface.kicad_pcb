@@ -49,7 +49,7 @@
 			)
 			(layer "F.Mask"
 				(type "Top Solder Mask")
-				(color "Black")
+				(color "Blue")
 				(thickness 0.01)
 			)
 			(layer "F.Cu"
@@ -70,7 +70,7 @@
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
-				(color "Black")
+				(color "Blue")
 				(thickness 0.01)
 			)
 			(layer "B.Paste"
@@ -80,7 +80,7 @@
 				(type "Bottom Silk Screen")
 				(color "White")
 			)
-			(copper_finish "ENIG")
+			(copper_finish "HAL lead-free")
 			(dielectric_constraints no)
 			(castellated_pads yes)
 		)
@@ -14201,7 +14201,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "44,0000 mm"
+		(gr_text "44.0000 mm"
 			(locked yes)
 			(at 72.933595 73.763595 0)
 			(layer "Cmts.User")

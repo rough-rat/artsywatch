@@ -38,3 +38,5 @@ fp-info-cache
 spam/**
 
 *.lck
+
+.history
