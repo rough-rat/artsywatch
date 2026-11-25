@@ -13,7 +13,8 @@ to be shared across firmware projects and tooling.
 - Data model for watchface layouts (`Layout`, `Led`, `Entity`).
 - Entity helpers like `set_degrees(u16)` to fill a range proportionally.
 - JSON parsing via `serde_json_core`.
-- Binary layout parsing via `postcard` (used by firmware to avoid runtime JSON parsing).
+- Binary layout parsing via `postcard` (no runtime JSON parsing). The artsywatch firmware
+  uses neither: its `build.rs` turns the JSON into Rust constants.
 
 ## JSON schema (current)
 

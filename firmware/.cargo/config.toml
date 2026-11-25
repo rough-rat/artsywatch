@@ -7,7 +7,8 @@ run-demo = "run --release --example"
 [target.riscv32imc-unknown-none-elf]
 # runner = "wchisp flash"
 # runner = "wlink -v flash --dry-run"
-runner = "wlink -v flash"
+# USB (CDC reset + wchisp) when the board is on USB, else wlink. See tools/flash.sh.
+runner = "tools/flash.sh"
 # runner = "wlink -v flash --watch-serial"
 
 # runner = "probe-rs run --chip CH582 --chip-description-path definition.yaml"
